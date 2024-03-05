@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" modified="2024-03-05T18:02:09.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="8pHos2LyltEDxODt2r7g" version="21.6.8" type="github">
+  <diagram name="Page-1" id="lpzcWNn9oTGzJAKG1xfI">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-1" target="9rSpd9hYAnM-yxZNclT9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-1" value="transporteur &lt;br&gt;inscription" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-3" value="initialiser la db&lt;br&gt;= créer la table pour lui avec un nom unique&lt;br&gt;&lt;br&gt;col pour lier a l&#39;id de la decharge&lt;br&gt;(permettra a la decharge d&#39;aggrer tout le content)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="30" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-7" target="9rSpd9hYAnM-yxZNclT9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-7" value="c&#39;est nous qui créons les comptes = nous qui créons les tables dans la base mais la création de table doit etre automatiser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="250" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-9" target="9rSpd9hYAnM-yxZNclT9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-9" value="besoin d&#39;un moyen pour custom le code en fonction du client ?&lt;br&gt;pas possible de modiifer le code source sinon ca imacte tout le monde" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="340" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-11" value="chaque client = une branche github ?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="294" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-16" value="besoin d&#39;un token pour lier le compte a la db (jwt) ?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-18" value="accès total a la partie logiqr transporteur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-19" value="trans 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-20" value="trans 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-21" value="trans 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-25" value="décharge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-26" value="- modifier le code pour savoir quelle table prendre en compte en fonction du transporteur&lt;br&gt;- systeme d&#39;aggregation pour la décharge de tous les transporteurs qui sont reliés a cette décharge = FK entre table transporteur et table decharge&lt;br&gt;- option pour voir uniquement un transporteur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="330" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9rSpd9hYAnM-yxZNclT9-27" target="9rSpd9hYAnM-yxZNclT9-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-27" value="Solutions : &lt;br&gt;- dans roles ajout d&#39;une col NOM de transporteur pour pouvoir retrouver la table&lt;br&gt;- changement des variables au lieu d&#39;avoir generate on aura generate_NOM&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="150" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9rSpd9hYAnM-yxZNclT9-29" value="est ce c&#39;est mieux d&#39;avoir une table par transporteur ou une nouvelle DB par transporteur? &lt;br&gt;question con je pense que c&#39;est mieux table pour centraliser la db et pas en avoir 50 milles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="460" width="185" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
